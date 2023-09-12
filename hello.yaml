@@ -1,0 +1,59 @@
+#Key value pais
+"apple" : "Iam a red fruit"
+1: "This is Akash Roll no"
+
+---
+#list
+- apple
+- mango
+- banana
+- Apple # YAMl is case sensetive
+---
+ cities:
+  - new delhi
+  - mumbai
+  - gujrat
+---
+#we can use array identatio to avoid errors
+ cities: [new delhi, asansol, mumbai]
+---
+ {mango: "a Yellow foruit", taste:"sweet", weight:"100"}
+---
+
+#Strinng in YAMl
+
+myself: Akas yadav
+fruit: "i like mango"
+job: 'iam a cloud engineer'
+bio: |
+ hey iam very good at.
+ codding
+
+message: >
+  this will
+  be treated
+  in a one 
+  single line
+---
+number: 5763
+marks: 525.7
+booleanValues: No #or n,N, false,FALSE,yes y,Y,YES
+---
+#Speciy the type 
+zero: !!int 45
+hexa: !!int 0x4
+
+marks: !!float 546.83
+boolval: !!bool false
+
+not a num: .nan
+
+surname: !!null Null # or null NULL ~
+
+ #DAte and time Repersentaion
+
+canonical:        2001-12-15T02:59:43.1Z
+valid iso8601:    2001-12-14t21:59:43.10-05:00
+space separated:  2001-12-14 21:59:43.10 -5
+no time zone (Z): 2001-12-15 2:59:43.10
+date (00:00:00Z): 2002-12-14

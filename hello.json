@@ -1,0 +1,45 @@
+
+{
+  "cities": [
+    "new delhi",
+    "mumbai",
+    "gujrat"
+  ]
+}
+
+
+
+{
+  "cities": [
+    "new delhi",
+    "asansol",
+    "mumbai"
+  ]
+},
+
+{
+  "mango": "a Yellow foruit",
+  "taste:\"sweet\"": null,
+  "weight:\"100\"": null
+}
+
+[
+  "apple",
+  "mango",
+  "banana",
+  "Apple"
+]
+
+{
+  "myself": "Akas yadav",
+  "fruit": "i like mango",
+  "job": "iam a cloud engineer",
+  "bio": "hey iam very good at.\ncodding\n",
+  "message": "this will be treated in a one \n"
+}
+ 
+{
+  "zero": 45,
+  "hexa": 69,
+  "commavalues": "+575_000"
+}

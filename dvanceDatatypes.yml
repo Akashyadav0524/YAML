@@ -1,0 +1,6 @@
+students: !!seq
+ - name
+ - marks
+ - roll no
+
+#like
