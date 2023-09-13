@@ -3,4 +3,86 @@ students: !!seq
  - marks
  - roll no
 
-#like
+#like this also
+cities: [new delhi,asansol]
+
+#some of the keys of the seq will be empty
+#sparser sequences
+
+sparse seq:
+-
+ - hey
+ - how
+ -
+ - null
+ - hello
+-
+ - this
+ - is
+ - nested
+ - item
+-
+---
+
+#nested mapping:map unde map
+name: Akash Yadav
+role: 
+  postion: devloper
+  slary: 21Lpa
+age: 21
+sex: M
+
+---
+
+name: Akash
+role: {age:23 , postion: cloud engineer}
+
+pair example: !!pairs
+ - job: student
+ - job: teacher
+
+# same as
+pairexample: !!pairs [job: student, job: teacher]
+# this will be an array of hashtables
+
+# !!set will allow you to have unique values
+names: !!set
+ ? Kunal
+ ? Apoorv
+ ? Rahul
+
+# dictionary !!omap
+people: !!omap
+  - Kunal:
+     name: Kunal Kushwaha
+     age: 78
+     height: 678
+  - Rahul:
+     name: Rahul OP
+     age: 50
+     height: 456
+
+# reusing some properties using anchors
+likings: &likes #anchors<
+  fav fruit: mango
+  dislikes: grapes
+
+person1:
+  name: Kunal Kushwaha
+  <<: *likes
+
+person2:
+  name: Rahul
+  <<: *likes
+  dislikes: berries
+
+# this will look like
+person3:
+  name: Rahul
+  fav fruit: mango
+  dislikes: berries
+
+person4:
+  name: Apoorv
+  fav fruit: mango
+  dislikes: grapes

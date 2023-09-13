@@ -43,3 +43,23 @@
   "hexa": 69,
   "commavalues": "+575_000"
 }
+
+
+{
+  "sparse seq": [
+    [
+      "hey",
+      "how",
+      null,
+      null,
+      "hello"
+    ],
+    [
+      "this",
+      "is",
+      "nested",
+      "item"
+    ],
+    null
+  ]
+}
